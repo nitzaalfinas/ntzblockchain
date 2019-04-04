@@ -1,10 +1,8 @@
 # ntzblockchain
-Blockchain
+Ntzblockchain adalah percobaan pembuatan blockchain. Kode ini sudah dikerjakan dari 7 bulan yang lalu dan tidak banyak kemajuan karena terlalu banyak kerjaan yang lain. Hehe... daripada terbengkalai, mending di publish saja. Bagi yang minat buat blockchain sendiri, silahkan hubungi saya.
+Silahkan fork untuk melihat perjalanannya. :D
 
-# quick setup
-rvm reload && gem cleanup ntzblockchain && rvm reload && rvm use ruby-2.5.1 && gem build ntzblockchain.gemspec && gem install ./ntzblockchain-0.0.0.gem && irb
+Jangan lupa, untuk mencobanya, jalankan saja test seperti command dibawah ini
 
-# irb test
-require 'ntzblockchain'
-a = Ntzblockchain::Blockchain.new
-a.add_block("aa")
+# Jalankan Test
+rake
